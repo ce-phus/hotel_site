@@ -16,7 +16,7 @@ import { styles } from '../styles'
 
 const Event = () => {
   return (
-    <section id='event' className='relative bg-primary'>
+    <section id='event' className='relative bg-primary '>
       <div className={`max-w-7xl mx-auto ${styles.paddingX}`}>
         <div className='flex flex-col items-center justify-center pt-20'>
           <p className='text-sm text-accent font-semibold tracking-wide uppercase'>

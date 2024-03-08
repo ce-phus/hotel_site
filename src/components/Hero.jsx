@@ -20,14 +20,13 @@ const Hero = () => {
             <motion.p 
             variants={textVariant()}
             className={`${styles.heroSubText} mt-2 text-white-200`}>Come with Family and feel the joy of mouthwatering Food</motion.p>
-              <div className='mt-auto'>
-                <div className='pt-6 grid h-screen place-items-center'>
-                  <button className='block px-8 py-5 leading-loose text-4xl text-center font-normal leading-none border border-accent bg-transparent hover:bg-secondary  hover:text-white text-accent'>View Our Menu</button>
-                </div>
-              </div>
           </div>
         </div>
-      
+        <div className='mt-auto'>
+            <div className='pt-6 flex items-center justify-center absolute left-0 right-0 bottom-7'>
+                <button className='block bg-transparent border border-4 border-accent tracking-wide px-3 py-4 text-4xl hover:text-secondary hover:bg-accent font-bold'>View All Menu</button>
+            </div>
+        </div>
     </section>
   )
 }

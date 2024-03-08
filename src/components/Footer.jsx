@@ -5,7 +5,7 @@ import logo from "/src/assets/logo.svg";
 
 const Footer = () => {
   return (
-    <section id='footer' className='relative h-screen bg-hero-footer md:bg-auto mx-auto'>
+    <section id='footer' className='relative bg-hero-footer md:bg-auto mx-auto'>
       <div className={`max-w-7xl mx-auto grid place-items-center h-screen`}>
         <div className='grid grid-cols-1 md:grid-cols-4 gap-20 mt-10 pb-20'>
           <div className='flex flex-col items-center justify-center mr-12'>
@@ -16,9 +16,9 @@ const Footer = () => {
             <p className='uppercase tracking-wide font-bold text-gray-500 text-sm mb-5 cursor-pointer hover:text-accent'>contact</p>
           </div>
 
-          <div className='flex flex-col items-center relative md:col-span-2'>
-            <div className='border border-transparent bg-primary relative w-full md:w-[590px] pb-10'>
-              <img src={footerform} alt='footerform' className='w-full' />
+          <div className='flex flex-col items-center relative md:col-span-2 gap-20'>
+            <div className='border border-transparent bg-primary relative w-full w-[590px] pb-10'>
+              <img src={footerform} alt='footerform' className='' />
             </div>
             <div className='pt-10 ml-10 absolute'>
               <img src={logo} alt='logo' />

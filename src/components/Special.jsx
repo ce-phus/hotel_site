@@ -31,7 +31,7 @@ const Special = () => {
               <p className='text-accent text-xl font-bold'>KSH 4000</p>
               <p className='font-normal ml-3'>KSH 2000</p>
             </div>
-            <div className='mt-5 md:mt-10 md:ml-11'>
+            <div className='mt-5 md:mt-10 md:ml-11 mb-10'>
               <button className='px-8 py-3 text-sm md:text-base font-bold border border-accent bg-transparent text-accent hover:bg-secondary hover:text-white'>VIEW ALL MENU</button>
             </div>
           </div>

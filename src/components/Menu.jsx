@@ -133,7 +133,7 @@ const Menu = () => {
         {/* Open Daily div */}
         <div className='flex flex-col items-center mt-10'>
           <p className='text-lg font-normal max-w-2xl'>Open daily from <span className='text-accent'>7.00 am</span> to <span className='text-accent'>9.00 pm</span></p>
-          <div className='mt-5 md:mt-10 md:ml-11'>
+          <div className='mt-5 md:mt-10 md:ml-11 mb-10'>
             <button className='px-8 py-3 text-sm md:text-base font-bold border border-accent bg-transparent text-accent hover:bg-secondary hover:text-white'>VIEW ALL MENU</button>
           </div>
         </div>
