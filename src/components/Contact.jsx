@@ -104,8 +104,8 @@ const Contact = () => {
               <button type='submit' className='text-center text-sm text-secondary font-bold w-full tracking-wide border border-accent py-5 bg-accent hover:bg-secondary hover:text-white hover:border-accent border-4'>BOOK A TABLE</button>
             </form>
           </div>
-          <div className='flex flex-col items-center relative pb-20'>
-            <img src={formpattern} className='w-full md:w-[590px]' alt="pattern" />
+          <div className='flex flex-col items-center relative pb-20 mb-10'>
+            <img src={formpattern} className='max-w-[590px] object-cover md:max-w-[590px]' alt="pattern" />
             <div className='pt-20 ml-10 mb-10 absolute'>
               <h1 className='text-8xl tracking-wide'>Contact Us</h1>
               <p className='font-bold tracking-wide mt-10'>Booking Request</p>
