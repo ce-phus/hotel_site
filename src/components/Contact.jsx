@@ -105,7 +105,7 @@ const Contact = () => {
             </form>
           </div>
           <div className='flex flex-col items-center relative pb-20 mb-10'>
-            <img src={formpattern} className='max-w-[590px] object-cover md:max-w-[590px]' alt="pattern" />
+            <img src={formpattern} className='max-w-[590px] object-cover md:w-[570px]' alt="pattern" />
             <div className='pt-20 ml-10 mb-10 absolute'>
               <h1 className='text-8xl tracking-wide'>Contact Us</h1>
               <p className='font-bold tracking-wide mt-10'>Booking Request</p>
